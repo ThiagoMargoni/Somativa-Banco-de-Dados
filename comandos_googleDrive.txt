@@ -1,0 +1,8 @@
+/* 
+RESPOSTA ETAPA 3:
+
+R.: Na minha visão a maneira mais correta de fazer seria usando um banco de dados NoSQL, visando os três seguintes pontos:
+1 - Quando analisamos o Google Drive, percebemos que ele é completamente flexivel no tipo de arquivos que precisamos
+2 - Independente do tamanho da necessidade, ele consegue aguentar praticamente qualquer expansão
+3 - A última vantagem que vejo é no quesito alterar a estrutura do banco, portanto deletar dados ou alterar colunas da tabela se torna extremamente prático
+*/

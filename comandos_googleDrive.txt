@@ -6,3 +6,12 @@ R.: Na minha visão a maneira mais correta de fazer seria usando um banco de dad
 2 - Independente do tamanho da necessidade, ele consegue aguentar praticamente qualquer expansão
 3 - A última vantagem que vejo é no quesito alterar a estrutura do banco, portanto deletar dados ou alterar colunas da tabela se torna extremamente prático
 */
+
+use googledrive;
+
+db.arquivos.insertOne({ arquivo: 'hashdoarquivo', id_usuario: 1, dataUpload: new Date() });
+db.arquivos.insertOne({ arquivo: 'hashdoarquivo', id_usuario: 2, dataUpload: new Date() });
+db.compartilhamento.insertOne({ id_arquivo: ObjectId('123456789123'), id_usuario_compartilhado: 4, dataCompartilhamento: new Date(), dataExpiracao: null });
+
+db.arquivos.insertOne({ arquivo: 'hashdoarquivo', id_usuario: 2, dataUpload: new Date() })
+

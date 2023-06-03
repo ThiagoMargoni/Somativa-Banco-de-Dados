@@ -1,0 +1,3 @@
+Host: formativabanco.mysql.database.azure.com
+Username: MargoniSomativa
+Password: Thiago123
